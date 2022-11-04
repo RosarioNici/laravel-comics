@@ -2,9 +2,118 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-
+  /* header */
+  /*#region*/
 .text-end {
   text-align: end;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bg-blue{
+    background-color: #0074e8;
+    color: white;
+}
+.bg-none{
+max-width: 100%;
+    background-color: white;
+}
+.flex-beetwen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    margin-left: 10px;
+    list-style: none;
+}
+.cont-ul{
+    padding: 8px;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.jumbo{
+    background-image: url('/images/jumbotron.jpg' );
+    height: 400px;
+    position: relative;
+}
+.tiket{
+    position: absolute;
+    left: 200px;
+    top: 360px;
+    background-color: #0074e8;
+    padding: 16px;
+}
+
+/*#endregion*/
+.bg-color-b{
+    background-color: rgb(32, 32, 32);
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 30px;
+
+}
+.card{
+
+    width: calc(100% / 6);
+    padding: 10px;
+
+
+}
+
+.img-fluid{
+    height: 200px;
+    width: 150px;
+}
+.title-card{
+    width: 150px;
+}
+
+.btn-load{
+    background-color: #0074e8;
+    padding: 10px;
+    color: white;
+    width: 260px;
+    margin-bottom: 10px;
+}
+.text-center{
+    text-align: center;
+}
+
+.banner{
+    background-color: #0074e8;
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.regulation-img{
+    width: 126px;
+    height: 126px;
+}
+footer{
+    background-image: url('/images/footer-bg.jpg' );
+    height: 300px;
+}
